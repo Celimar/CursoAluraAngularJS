@@ -2,10 +2,15 @@
     <h1 class="text-center">Alurapic</h1>
 </div>
 
-<divprincip class="row">
+<div class="row">
     <div clas="col-md-12">
         <form>
-            <input class="form-control" ng-model="filtro" ng-model-options="{ debounce: 600 }"  placeholder="filtrar pelo titulo da foto">
+            <div class="input-group">
+                <spam class="input-group-btn">
+                    <a href="fotos/new" class="btn btn-primary">Nova foto</a>
+                </spam>    
+                <input class="form-control" ng-model="filtro" ng-model-options="{ debounce: 600 }"  placeholder="filtrar pelo titulo da foto">
+            </div>
         </form>
     </div>
 </div>
